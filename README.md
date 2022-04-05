@@ -1,5 +1,11 @@
 # Simple_CPU
 
+Operation Function performed Description
+load Rx, D Rx ← D Load constant value D into Rx
+mov Rx, Ry Rx ← [Ry] Move contents of Ry into Rx
+add Rx, Ry Rx ← [Rx] + [Ry] Add contents of Rx and Ry and put result into Rx
+xor Rx, Ry Rx ← [Rx] xor [Ry] Bitwise XOR contents of Rx and Ry and put result into Rx
+
 Instructions (Coding):
 1. Implement each individual block in Verilog. To help demonstrators and collaborate within your group, 
 please ensure your FSM and Datapath are separate modules. Each should consist of several test modules.
