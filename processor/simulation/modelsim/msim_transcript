@@ -1,0 +1,211 @@
+# Reading pref.tcl
+# do Processor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:38 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 10:42:38 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:38 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v 
+# -- Compiling module processor_TB
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(40): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(50): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	processor_TB
+# End time: 10:42:38 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 16
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v 
+# -- Compiling module FSM_next_state
+# 
+# Top level modules:
+# 	FSM_next_state
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v 
+# -- Compiling module FSM_given_state
+# 
+# Top level modules:
+# 	FSM_given_state
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v 
+# -- Compiling module Control_Sign
+# 
+# Top level modules:
+# 	Control_Sign
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v 
+# -- Compiling module Control_Sign
+# 
+# Top level modules:
+# 	Control_Sign
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v 
+# -- Compiling module FSM_combin
+# 
+# Top level modules:
+# 	FSM_combin
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v 
+# -- Compiling module FSM_given_state
+# 
+# Top level modules:
+# 	FSM_given_state
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v 
+# -- Compiling module FSM_next_state
+# 
+# Top level modules:
+# 	FSM_next_state
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v 
+# -- Compiling module FSM_state_register
+# 
+# Top level modules:
+# 	FSM_state_register
+# End time: 10:42:39 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:39 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 10:42:40 on Jun 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/processor {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:42:40 on Jun 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v 
+# -- Compiling module processor_TB
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(39): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(40): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(43): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(44): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v(50): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	processor_TB
+# End time: 10:42:40 on Jun 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 16
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  processor_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" processor_TB 
+# Start time: 10:42:40 on Jun 02,2021
+# Loading work.processor_TB
+# Loading work.processor
+# Loading work.FSM_next_state
+# Loading work.FSM_given_state
+# Loading work.datapath
+# Loading work.Control_Sign
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: steve  Hostname: DESKTOP-8PN7T97  ProcessID: 12584
+#           Attempting to use alternate WLF file "./wlfte0020c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfte0020c
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module datapath at C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v line 17
+# End time: 10:43:14 on Jun 02,2021, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 2

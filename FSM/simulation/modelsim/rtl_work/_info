@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/simulation/modelsim
+vFSM_combin
+Z1 !s110 1621985584
+!i10b 1
+!s100 @_BdAFe1mAcl>LNQelB;j3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjiIeIN>WlS4`f>Knlaif80
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621941868
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_combin.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_combin.v
+!i122 5
+Z4 L0 1 16
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1621985584.000000
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_combin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_combin.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work {+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM}
+Z9 tCvgOpt 0
+n@f@s@m_combin
+vFSM_given_state
+R1
+!i10b 1
+!s100 @Oc@Y6V4TijS2Whb4_AF[1
+R2
+I;A9Q1eUB>zNdD@?Yck<N<3
+R3
+R0
+w1621941844
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_given_state.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_given_state.v
+!i122 6
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_given_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_given_state.v|
+!i113 1
+R7
+R8
+R9
+n@f@s@m_given_state
+vFSM_next_state
+R1
+!i10b 1
+!s100 kLh[5V5;nEl^5V9R`BUm43
+R2
+IJo`5KcmU5dY4P;ZfM>d6=1
+R3
+R0
+w1621736388
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_next_state.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_next_state.v
+!i122 7
+L0 1 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_next_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_next_state.v|
+!i113 1
+R7
+R8
+R9
+n@f@s@m_next_state
+vFSM_state_register
+R1
+!i10b 1
+!s100 ]FM[]Z9TZEkLdR]6]m`ob2
+R2
+IQ80DbT:l7BTYigGP^kgRS3
+R3
+R0
+w1621698521
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_state_register.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_state_register.v
+!i122 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_state_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_state_register.v|
+!i113 1
+R7
+R8
+R9
+n@f@s@m_state_register
+vFSM_TB
+!s110 1621985585
+!i10b 1
+!s100 liglDXFENgNffiLWBMlQI1
+R2
+ITkCQ9Qf8Hc^n=oICYm2500
+R3
+R0
+w1621941938
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_TB.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_TB.v
+!i122 9
+L0 3 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_TB.v|
+!i113 1
+R7
+R8
+R9
+n@f@s@m_@t@b

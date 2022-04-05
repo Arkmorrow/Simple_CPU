@@ -1,0 +1,20 @@
+module given_state(state,my_out);
+	input [3:0] state;
+	output reg my_out;
+	
+	always @ (state) begin
+		case (state)
+			4'b0000 : begin my_out <= 1'b0; end
+			4'b0001 : begin my_out <= 1'b0; end
+			4'b0010 : begin my_out <= 1'b0; end
+			4'b0011 : begin my_out <= 1'b0; end
+			4'b0100 : begin my_out <= 1'b1; end
+			4'b0101 : begin my_out <= 1'b0; end
+			4'b0110 : begin my_out <= 1'b0; end
+			4'b0111 : begin my_out <= 1'b0; end
+			4'b1000 : begin my_out <= 1'b1; end
+			default : begin my_out <= 1'b0; end
+		endcase
+	end
+				
+endmodule

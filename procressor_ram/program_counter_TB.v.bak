@@ -1,0 +1,47 @@
+`timescale 1ns / 1ps
+ 
+module sample_ram_TB;
+ 
+	// ------------------ Instantiate module ------------------
+	// We are instantiating the module gated_RS, naming it instantiate_gated_RS.
+	
+	reg [3:0] count;
+	reg we,clk;
+	reg[15:0] Data;
+	reg[5:0]read_addr,write_addr;
+	wire [15:0]q;
+	
+	
+	ram_infer ram(.data(Data),.read_addr(read_addr),.write_addr(write_addr),.we(we),.clk(clk),.q(q));
+	
+	
+	
+	initial begin
+		count = 5'b0000;
+		
+	end
+	
+	always begin
+		#20
+		count=count+4'b0001;
+	end
+
+	
+	always @(count) begin
+		case (count)
+
+		5'b00000 : begin Data = 16'b1000000000000000; we = 1'b1; clk = 1'b0; read_addr = 6'b1;write_addr = 6'b1; we = 1'b1;end
+		5'b00001 : begin Data = 16'b1000000000000000; we = 1'b1; clk = 1'b1; read_addr = 6'b1;write_addr = 6'b1; we = 1'b1;end
+		5'b00010 : begin Data = 16'b1; we = 1'b1; clk = 1'b0; read_addr = 6'b1;write_addr = 6'b1; we = 1'b0;end
+		5'b00011 : begin Data = 16'b1; we = 1'b1; clk = 1'b1; read_addr = 6'b1;write_addr = 6'b1; we = 1'b0;end
+		5'b00100 : begin Data = 16'b10; we = 1'b1; clk = 1'b0; read_addr = 6'b1;write_addr = 6'b1; we = 1'b1;end
+		5'b00101 : begin Data = 16'b10; we = 1'b1; clk = 1'b1; read_addr = 6'b1;write_addr = 6'b1; we = 1'b1;end
+		5'b00110 : begin Data = 16'b1; we = 1'b1; clk = 1'b0; read_addr = 6'b1;write_addr = 6'b1; we = 1'b0;end
+		5'b00111 : begin Data = 16'b1; we = 1'b1; clk = 1'b1; read_addr = 6'b1;write_addr = 6'b1; we = 1'b0;end
+		
+		default : begin Data = 16'b0; we = 1'b1; clk = 1'b1; read_addr = 6'b1;write_addr = 6'b1; we = 1'b0;end
+	endcase
+	end
+
+ 
+endmodule

@@ -1,0 +1,13 @@
+module combin(clk,rst,w, detected);
+	input clk,rst,w;
+	wire [3:0] next_c,current_c;
+	output detected;
+	
+	
+	next_state n_s(.state(current_c),.w(w),.next_s(next_c));
+	
+	state_register s_r(.d(next_c),.clk(clk),.rst(rst),.Q(current_c));
+	
+	given_state g_s(.state(current_c),.my_out(detected));
+				
+endmodule

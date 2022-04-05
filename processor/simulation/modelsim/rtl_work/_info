@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/simulation/modelsim
+vControl_Sign
+Z1 !s110 1622601759
+!i10b 1
+!s100 K8K5`bX_KIzm@IhcCXkV^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il8C2XVTf2zKK12_RWiYXE2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621916628
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v
+!i122 6
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1622601759.000000
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/Control_Sign.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor}
+Z8 tCvgOpt 0
+n@control_@sign
+vdatapath
+R1
+!i10b 1
+!s100 iWnYD1]8l5BDnn::>@7?`3
+R2
+ImimnFR=25:nDl8fIMaJUW1
+R3
+R0
+w1621958479
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v
+!i122 7
+L0 1 123
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/datapath.v|
+!i113 1
+R6
+R7
+R8
+vFSM_combin
+R1
+!i10b 1
+!s100 @_BdAFe1mAcl>LNQelB;j3
+R2
+IV344<Zd7YG7hjf0g4IAS:2
+R3
+R0
+w1621941868
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v
+!i122 8
+Z9 L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_combin.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_combin
+vFSM_given_state
+R1
+!i10b 1
+!s100 @Oc@Y6V4TijS2Whb4_AF[1
+R2
+ID_lF0b5fPO;RULg7fP@>j1
+R3
+R0
+w1621941844
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v
+!i122 9
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_given_state.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_given_state
+vFSM_next_state
+R1
+!i10b 1
+!s100 kLh[5V5;nEl^5V9R`BUm43
+R2
+I?8BEKHhMLzhi6K3f=SLUz1
+R3
+R0
+w1621736388
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v
+!i122 10
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_next_state.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_next_state
+vFSM_state_register
+R1
+!i10b 1
+!s100 ]FM[]Z9TZEkLdR]6]m`ob2
+R2
+I3HR6HEi8BoTk`@o;bYeS_1
+R3
+R0
+w1621698521
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v
+!i122 11
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/FSM_state_register.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_state_register
+vprocessor
+R1
+!i10b 1
+!s100 SW2OMh>6M:ndZVfY5M`^S2
+R2
+I=i3]Nee[nTHM5b>Z95ZE82
+R3
+R0
+w1621961584
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v
+!i122 12
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor.v|
+!i113 1
+R6
+R7
+R8
+vprocessor_TB
+!s110 1622601760
+!i10b 1
+!s100 DFA9G5ZNV8gA[Yoa1T4@o2
+R2
+IHfMD[Q;k9GZN;m7SObU=f3
+R3
+R0
+w1621986810
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v
+!i122 13
+L0 3 53
+R4
+r1
+!s85 0
+31
+!s108 1622601760.000000
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/processor/processor_TB.v|
+!i113 1
+R6
+R7
+R8
+nprocessor_@t@b

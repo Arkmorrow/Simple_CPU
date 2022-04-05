@@ -1,0 +1,107 @@
+|FSM_TB
+
+
+|FSM_TB|FSM_combin:combin_f
+clk => clk.IN1
+rst => rst.IN1
+w => w.IN1
+instruction_F[0] => instruction_F[0].IN2
+instruction_F[1] => instruction_F[1].IN2
+instruction_F[2] => instruction_F[2].IN2
+instruction_F[3] => instruction_F[3].IN2
+instruction_F[4] => instruction_F[4].IN2
+instruction_F[5] => instruction_F[5].IN2
+instruction_F[6] => instruction_F[6].IN2
+instruction_F[7] => instruction_F[7].IN2
+instruction_F[8] => instruction_F[8].IN2
+instruction_F[9] => instruction_F[9].IN2
+instruction_F[10] => instruction_F[10].IN2
+instruction_F[11] => instruction_F[11].IN2
+reg_x_num[0] <= FSM_given_state:g_s.reg_x_num
+reg_x_num[1] <= FSM_given_state:g_s.reg_x_num
+reg_x_num[2] <= FSM_given_state:g_s.reg_x_num
+reg_x_num[3] <= FSM_given_state:g_s.reg_x_num
+reg_y_num[0] <= FSM_given_state:g_s.reg_y_num
+reg_y_num[1] <= FSM_given_state:g_s.reg_y_num
+reg_y_num[2] <= FSM_given_state:g_s.reg_y_num
+reg_y_num[3] <= FSM_given_state:g_s.reg_y_num
+A_in <= FSM_given_state:g_s.A_in
+G_in <= FSM_given_state:g_s.G_in
+G_out <= FSM_given_state:g_s.G_out
+Extern <= FSM_given_state:g_s.Extern
+AddXor[0] <= FSM_given_state:g_s.AddXor
+AddXor[1] <= FSM_given_state:g_s.AddXor
+
+
+|FSM_TB|FSM_combin:combin_f|FSM_next_state:n_s
+instruction_F[0] => ~NO_FANOUT~
+instruction_F[1] => ~NO_FANOUT~
+instruction_F[2] => ~NO_FANOUT~
+instruction_F[3] => ~NO_FANOUT~
+instruction_F[4] => ~NO_FANOUT~
+instruction_F[5] => ~NO_FANOUT~
+instruction_F[6] => ~NO_FANOUT~
+instruction_F[7] => ~NO_FANOUT~
+instruction_F[8] => Decoder0.IN3
+instruction_F[9] => Decoder0.IN2
+instruction_F[10] => Decoder0.IN1
+instruction_F[11] => Decoder0.IN0
+w => Decoder0.IN4
+next_s[0] <= next_s.DB_MAX_OUTPUT_PORT_TYPE
+next_s[1] <= next_s.DB_MAX_OUTPUT_PORT_TYPE
+next_s[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+next_s[3] <= <GND>
+
+
+|FSM_TB|FSM_combin:combin_f|FSM_state_register:s_r
+d[0] => Q[0]~reg0.DATAIN
+d[1] => Q[1]~reg0.DATAIN
+d[2] => Q[2]~reg0.DATAIN
+d[3] => Q[3]~reg0.DATAIN
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+rst => Q[0]~reg0.ACLR
+rst => Q[1]~reg0.ACLR
+rst => Q[2]~reg0.ACLR
+rst => Q[3]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FSM_TB|FSM_combin:combin_f|FSM_given_state:g_s
+func_instruction[0] => Decoder0.IN3
+func_instruction[1] => Decoder0.IN2
+func_instruction[2] => Decoder0.IN1
+func_instruction[3] => Decoder0.IN0
+instruction_F[0] => reg_y_num[0].DATAIN
+instruction_F[1] => reg_y_num[1].DATAIN
+instruction_F[2] => reg_y_num[2].DATAIN
+instruction_F[3] => reg_y_num[3].DATAIN
+instruction_F[4] => reg_x_num[0].DATAIN
+instruction_F[5] => reg_x_num[1].DATAIN
+instruction_F[6] => reg_x_num[2].DATAIN
+instruction_F[7] => reg_x_num[3].DATAIN
+instruction_F[8] => ~NO_FANOUT~
+instruction_F[9] => ~NO_FANOUT~
+instruction_F[10] => ~NO_FANOUT~
+instruction_F[11] => ~NO_FANOUT~
+reg_x_num[0] <= instruction_F[4].DB_MAX_OUTPUT_PORT_TYPE
+reg_x_num[1] <= instruction_F[5].DB_MAX_OUTPUT_PORT_TYPE
+reg_x_num[2] <= instruction_F[6].DB_MAX_OUTPUT_PORT_TYPE
+reg_x_num[3] <= instruction_F[7].DB_MAX_OUTPUT_PORT_TYPE
+reg_y_num[0] <= instruction_F[0].DB_MAX_OUTPUT_PORT_TYPE
+reg_y_num[1] <= instruction_F[1].DB_MAX_OUTPUT_PORT_TYPE
+reg_y_num[2] <= instruction_F[2].DB_MAX_OUTPUT_PORT_TYPE
+reg_y_num[3] <= instruction_F[3].DB_MAX_OUTPUT_PORT_TYPE
+A_in <= A_in.DB_MAX_OUTPUT_PORT_TYPE
+G_in <= A_in.DB_MAX_OUTPUT_PORT_TYPE
+G_out <= A_in.DB_MAX_OUTPUT_PORT_TYPE
+Extern <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+AddXor[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+AddXor[1] <= A_in.DB_MAX_OUTPUT_PORT_TYPE
+
+

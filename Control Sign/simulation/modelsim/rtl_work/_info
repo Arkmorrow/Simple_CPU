@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/simulation/modelsim
+vControl_Sign
+Z1 !s110 1621985911
+!i10b 1
+!s100 K8K5`bX_KIzm@IhcCXkV^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InzHjDiWOT5nn;`K?>6aOe3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621916628
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v
+!i122 3
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1621985911.000000
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign}
+Z8 tCvgOpt 0
+n@control_@sign
+vdatapath
+R1
+!i10b 1
+!s100 iWnYD1]8l5BDnn::>@7?`3
+R2
+IYHlJUQ7Pm:aEK=X1haf713
+R3
+R0
+w1621958479
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v
+!i122 4
+L0 1 123
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v|
+!i113 1
+R6
+R7
+R8
+vdatapath_TB
+R1
+!i10b 1
+!s100 W02SXg7jT?9WmJRKHg>>_2
+R2
+IF78@`1YJP[X@5N[lcLge]1
+R3
+R0
+w1621958350
+8C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v
+FC:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v
+!i122 0
+L0 3 50
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign|C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v|
+!i113 1
+R6
+R7
+R8
+ndatapath_@t@b

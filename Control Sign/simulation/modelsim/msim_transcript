@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# do Control_Sign_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/Control\ Sign {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:38:31 on May 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath_TB.v 
+# -- Compiling module datapath_TB
+# 
+# Top level modules:
+# 	datapath_TB
+# End time: 07:38:31 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/Control\ Sign {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:38:31 on May 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 07:38:31 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/Control\ Sign {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:38:31 on May 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v 
+# -- Compiling module Control_Sign
+# 
+# Top level modules:
+# 	Control_Sign
+# End time: 07:38:31 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/Control\ Sign {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:38:31 on May 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v 
+# -- Compiling module Control_Sign
+# 
+# Top level modules:
+# 	Control_Sign
+# End time: 07:38:31 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/USYD/2021\ SEMESTER\ 1/ELEC2602/Project/Control\ Sign {C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:38:31 on May 26,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign" C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 07:38:31 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  datapath_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" datapath_TB 
+# Start time: 07:38:31 on May 26,2021
+# Loading work.datapath_TB
+# Loading work.datapath
+# Loading work.Control_Sign
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: steve  Hostname: DESKTOP-8PN7T97  ProcessID: 12472
+#           Attempting to use alternate WLF file "./wlft87ribk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft87ribk
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module Control_Sign at C:/USYD/2021 SEMESTER 1/ELEC2602/Project/Control Sign/Control_Sign.v line 6
+# End time: 07:42:20 on May 26,2021, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 2

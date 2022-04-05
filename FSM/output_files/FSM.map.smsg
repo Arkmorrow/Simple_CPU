@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at FSM_given_state.v(28): always construct contains both blocking and non-blocking assignments File: C:/USYD/2021 SEMESTER 1/ELEC2602/Project/FSM/FSM_given_state.v Line: 28

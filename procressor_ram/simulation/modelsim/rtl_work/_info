@@ -1,0 +1,281 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/simulation/modelsim
+vControl_Sign
+Z1 !s110 1622967253
+!i10b 1
+!s100 K8K5`bX_KIzm@IhcCXkV^2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDMJz8?oVg@OhfJoF]bIcM3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1621916628
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/Control_Sign.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/Control_Sign.v
+!i122 19
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1622967253.000000
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/Control_Sign.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/Control_Sign.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram}
+Z8 tCvgOpt 0
+n@control_@sign
+vdatapath
+R1
+!i10b 1
+!s100 dl75fT;D47I?bFJmE9`bT1
+R2
+ICDKO@MbZD2I06Pb3iz]3N3
+R3
+R0
+w1622603703
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/datapath.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/datapath.v
+!i122 18
+L0 1 137
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/datapath.v|
+!i113 1
+R6
+R7
+R8
+vFSM_combin
+R1
+!i10b 1
+!s100 =6JbNH>PV87GQQYe?]Qjj2
+R2
+I``B1Hd>7Y^gF?GP:M?H]i3
+R3
+R0
+w1622605067
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_combin.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_combin.v
+!i122 15
+Z9 L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_combin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_combin.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_combin
+vFSM_given_state
+R1
+!i10b 1
+!s100 @Oc@Y6V4TijS2Whb4_AF[1
+R2
+ID?Z`3ESiS=1O754JzNZbU0
+R3
+R0
+w1621941844
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_given_state.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_given_state.v
+!i122 16
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_given_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_given_state.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_given_state
+vFSM_next_state
+R1
+!i10b 1
+!s100 kLh[5V5;nEl^5V9R`BUm43
+R2
+IREg1aNH_L9[mDUUZ;mK4@1
+R3
+R0
+w1621736388
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_next_state.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_next_state.v
+!i122 17
+L0 1 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_next_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_next_state.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_next_state
+vFSM_state_register
+R1
+!i10b 1
+!s100 Z2T@=g_@Gj990Pz@`gCVf1
+R2
+I@UH<n8LXa2H3OWKPS_UKb2
+R3
+R0
+w1622571978
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_state_register.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_state_register.v
+!i122 14
+L0 1 16
+R4
+r1
+!s85 0
+31
+Z10 !s108 1622967252.000000
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_state_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/FSM_state_register.v|
+!i113 1
+R6
+R7
+R8
+n@f@s@m_state_register
+vprocessor
+Z11 !s110 1622967252
+!i10b 1
+!s100 c5cSVO9[_a`DnUz?NzDno1
+R2
+Ie61?aa?HnT^XjhKIfVo8S2
+R3
+R0
+w1622605051
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor.v
+!i122 13
+L0 1 58
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor.v|
+!i113 1
+R6
+R7
+R8
+vprocessor_TB
+R11
+!i10b 1
+!s100 cOizSbfie^S5><ASn4o@b3
+R2
+IXhk5Hg3OZIOBVdSVnI81;1
+R3
+R0
+w1622601943
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor_TB.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor_TB.v
+!i122 12
+L0 3 66
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/processor_TB.v|
+!i113 1
+R6
+R7
+R8
+nprocessor_@t@b
+vprogram_counter
+R1
+!i10b 1
+!s100 ZYo4lQWkfEnzNQY6ijBdd0
+R2
+IOIVif9GGNfR6z0R2QmlWA3
+R3
+R0
+w1622578048
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/program_counter.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/program_counter.v
+!i122 20
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/program_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/program_counter.v|
+!i113 1
+R6
+R7
+R8
+vram_infer
+R11
+!i10b 1
+!s100 kOP38ZU4fPd;ab;HN;XEF3
+R2
+IO4[S2z?g0z<A7g?f?]O4e0
+R3
+R0
+w1622603050
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/ram_infer.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/ram_infer.v
+!i122 11
+L0 1 17
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/ram_infer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/ram_infer.v|
+!i113 1
+R6
+R7
+R8
+vrom_16
+R1
+!i10b 1
+!s100 fa0nJEDbz1_9_L2M6b6hV1
+R2
+I641TY6dY2Pd<A]nbkm87X1
+R3
+R0
+w1622570204
+8E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/rom_16.v
+FE:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/rom_16.v
+!i122 21
+L0 40 61
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/rom_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram|E:/USYD/2021 SEMESTER 1/ELEC2602/Project/procressor_ram/rom_16.v|
+!i113 1
+R6
+R7
+R8

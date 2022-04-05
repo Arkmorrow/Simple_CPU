@@ -1,0 +1,41 @@
+`timescale 1ns / 1ps
+ 
+module Control_Sign_TB;
+ 
+	// ------------------ Instantiate module ------------------
+	// We are instantiating the module gated_RS, naming it instantiate_gated_RS.
+	
+	reg [3:0] count;
+	reg enable,enable_one;
+	reg[15:0] a,c;
+	wire [15:0]b;
+	
+	// instantiate and connect all 3 flip flops/latches
+	// Use same inputs (same inputs for D, clk to all instances)
+	// Use 3 separate outputs (see wires above)
+	
+	datapath tri_buf(.a(a),.c(c),.b(b),.enable(enable),.enable_one(enable_one));
+	
+	
+	initial begin
+		count = 4'b0000;
+		
+
+	end
+	
+	always begin
+		#20
+		count=count+4'b0001;
+	end
+
+	
+	always @(count) begin
+		case (count)
+		4'b0000 : begin a = 16'b0;c = 16'b10; enable = 1'b0;enable_one = 1'b1;end
+		4'b0001 : begin a = 16'b1;c = 16'b10; enable = 1'b1;enable_one = 1'b0;end
+		default : begin a = 16'b0;c = 16'b0; enable = 1'b0;enable_one = 1'b0;end
+	endcase
+	end
+
+ 
+endmodule
